@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PEROM</title>
+    <link rel="website icon" type="png" href="PEROM.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="produk.css">
+</head>
+<body>
+    <header>
+      <img src="logo produk.jpg" alt="Logo" class="logo">
+        <div class="mean-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="profil.html" >Home</a></li>
+                <li><a href="produk.html"class="active">Produk</a></li>
+                <li><a href="kontak.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+<main>
+    <div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="slider-item swiper-slide">
+      <div class="slider-image-wrapper">
+        <img class="slider-image" src="kameja pendek item.jpg" alt="SliderImg">
+        </div>
+      <div class="slider-item-content">
+        <h1>Kameja Polos Pendek</h1>
+        <p>Kemeja pendek ini adalah pilihan yang sempurna untuk gaya santai yang tetap terlihat rapi. Tersedia dalam berbagai pilihan warna yang dapat disesuaikan dengan selera dan gaya Anda. </p>
+      </div>
+    </div>
+    <div class="slider-item swiper-slide">
+      <div class="slider-image-wrapper">
+        <img class="slider-image" src="kameja panjang.jpeg" alt="SliderImg">
+        </div>
+      <div class="slider-item-content">
+        <h1>Kameja Polos Panjang</h1>
+        <p>Kemeja panjang ini merupakan pilihan yang tepat untuk acara-acara formal atau semi-formal. Desainnya yang simpel namun terlihat stylish dan elegan </p>
+      </div>
+    </div>
+    <div class="slider-item swiper-slide">
+      <div class="slider-image-wrapper">        
+        <img class="slider-image" src="jeket parasut.jpeg" alt="SliderImg" class="popup-image">>
+        </div>
+      <div class="slider-item-content">
+        <h1>Jeket Parasut</h1>
+        <p>Produk ini adalah pilihan yang ideal untuk gaya kasual yang tetap trendy dan fungsional. Desainnya yang sporty memberikan kesan modern dan maskulin. </p>
+      </div>
+    </div>
+  </div>
+  <div class="slider-buttons">
+      <button class="swiper-button-prev">Prev</button>
+      <button class="swiper-button-next">Next</button>
+  </div>
+</div>
+</main>
+
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js'></script><script  src="./produk.js"></script>   
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+</script>
+  <script type="text/javascript">
+      $(document).ready(function()
+      {
+          $('.mean-toggle').click(function()
+        {
+              $('.mean-toggle').toggleClass('active')
+              $('nav').toggleClass('active')
+        })
+      })
+    </script>
+</body>
+</html>
